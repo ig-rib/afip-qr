@@ -1,7 +1,7 @@
 const monedas = [
   { code: 0, name: 'OTRAS MONEDAS ' },
-  { code: 'PES', name: '	PESOS ' },
-  { code: 'DOL', name: '	Dólar ESTADOUNIDENSE ' },
+  { code: 'PES', name: 'PESOS ' },
+  { code: 'DOL', name: 'Dólar ESTADOUNIDENSE ' },
   { code: 2, name: 'Dólar EEUU LIBRE ' },
   { code: 3, name: 'FRANCOS FRANCESES ' },
   { code: 4, name: 'LIRAS ITALIANAS ' },
@@ -60,5 +60,7 @@ const monedas = [
   { code: 61, name: 'ZLTYS POLACOS ' },
   { code: 62, name: 'RUPIAS HINDÚES ' },
   { code: 63, name: 'LEMPIRAS HONDUREÑAS ' },
-  { code: 64, name: 'YUAN (Rep. Pop. China)' },
+  { code: 64, name: 'YUAN (Rep. Pop. China)' }
 ]
+
+export default monedas
