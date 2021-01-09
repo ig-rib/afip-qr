@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <v-layout row wrap justify-center>
-      <v-flex mt-5 class="justify-center">
+    <v-layout my-5 row wrap justify-center>
+      <v-flex xl5 class="justify-center">
         <v-card class="fields-card" width="500px">
           <v-container py-5>
             <v-layout class="field-subtitle" px-3 py-2>
@@ -43,6 +43,7 @@
                 placeholder="CUIT (sin guiones)"
                 return-masked-value
                 hide-details
+                type="number"
                 v-model="cmpData.cuit">
               </v-text-field>
             </v-layout>
@@ -55,6 +56,7 @@
                 outlined
                 dense
                 hide-details
+                type="number"
                 placeholder="Punto de Venta"
                 hint="Punto de venta utilizado para emitir el comprobante"
                 v-model="cmpData.ptoVta">
@@ -85,6 +87,7 @@
                 outlined
                 hide-details
                 dense
+                type="number"
                 placeholder="Número de Comprobante"
                 v-model="cmpData.nroCmp">
               </v-text-field>
@@ -188,6 +191,7 @@
                 outlined
                 dense
                 hide-details
+                type="number"
                 placeholder="14 dígitos"
                 v-model="cmpData.codAut">
               </v-text-field>
@@ -195,7 +199,7 @@
           </v-container>
         </v-card>
       </v-flex>
-      <v-flex shrink mt-5 class="results-flex">
+      <v-flex shrink class="results-flex">
         <v-card class="fields-card" width="500px">
           <v-container>
             <v-layout justify-center>
