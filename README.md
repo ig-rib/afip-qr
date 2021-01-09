@@ -1,5 +1,7 @@
 # afip-qr
 
+Cross-browser project for generating QR codes for enterprise documents according to new regulations
+
 ## Project setup
 ```
 npm install

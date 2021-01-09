@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout my-5 row wrap justify-center>
-      <v-flex xl5 class="justify-center">
+      <v-flex py-2 xl5 class="justify-center">
         <v-card class="fields-card" width="500px">
           <v-container py-5>
             <v-layout class="field-subtitle" px-3 py-2>
@@ -199,7 +199,7 @@
           </v-container>
         </v-card>
       </v-flex>
-      <v-flex shrink class="results-flex">
+      <v-flex py-2 shrink class="results-flex">
         <v-card class="fields-card" width="500px">
           <v-container>
             <v-layout justify-center>
